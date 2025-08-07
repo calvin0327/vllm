@@ -39,7 +39,7 @@ class Mxfp4Config(QuantizationConfig):
 
     @classmethod
     def get_min_capability(cls) -> int:
-        return 100
+        return 90
 
     @classmethod
     def get_name(cls) -> QuantizationMethods:
